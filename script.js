@@ -14,7 +14,7 @@ function searchData(){
        
         
         
-    })
+    referrerPolicy: "unsafe_url" })
     
 
 }
