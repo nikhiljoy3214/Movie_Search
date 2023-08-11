@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Search</title>
+</head>
+<body>
+    <div style="position: relative;">
+        <div style="background-color: rgb(0, 0, 0); height: 310px;">
+            <h1 id="mapp" style="color: rgb(255, 187, 0);">MOVIE APP</h1>
+        </div>
+        <div style="background-color: #ff3300; height: 309px;">
+            
+        </div>
+        <div id="maindiv" class="container w-50 mb-5 p-3" style="position: absolute;
+        top: 40px;
+        background-image: url(https://i.postimg.cc/KcB8VGjd/desktop-wallpaper-film-posters-collage-movies-resolution.jpg);
+        right: 600px;
+        width: 80px;
+        height: 550px;
+        border: 3px solid #00000033; background-color: #13121b;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+"> 
+        <form class="text-center">
+            <input id="mname" style="background-color: #13121b; border: 1px solid white;" class="w-75 input" placeholder="Search here">
+            <input class="button--submit" onclick="searchData()" value="Search" type="button">
+        </form>
+        <div>
+            
+        </div>
+        
+        <div id="iog" class="w-50" >
+
+        </div>
+        <div style="position: absolute; margin-left: 350px;">
+            <h5 class="mheading text-center" style="color: 	#ccff00;" id="titile"></h5>
+            
+            
+            <div class="details">
+                
+                <span id="ratings"  class=" btn mheading "></span>
+                <span id="release" class="btn mheading  me-2"></span>
+                <span id="runtime" class="btn mheading "></span>
+                
+            </div>
+            
+            <h4 id="genere" class="mheading fw-bold"></h4>
+            <div class="mt-4">
+                <span  id="director" class=" mheading text-center "></span>
+                <span  id="cast" class=" mheading "></span>
+                <span id="plot" class=" mheading "></span>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+   
+        
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
